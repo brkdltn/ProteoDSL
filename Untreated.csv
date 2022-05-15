@@ -1,0 +1,12 @@
+﻿ProteinRank,Description,LogProb,BestLogProb,Bestscore,TotalIntensity,spectra,uniquePeptides,modPeptides,CoveragePercent, AAInProtein,ProteinDBNumber
+1,>NP_001333374 neuroblast differentiation-associated protein AHNAK isoform 1 79026 AHNAK 5890 Q09666 sp,2190.67,19.90,1049.10,38289689.5,1001,306,11,61.00,5890,25
+1,>NP_001333375 neuroblast differentiation-associated protein AHNAK isoform 1 79026 AHNAK 5890 Q09666 sp,,,,,,,,,,
+1,>NP_001611 neuroblast differentiation-associated protein AHNAK isoform 1 79026 AHNAK 5890 Q09666 sp,,,,,,,,,,
+2,>NP_001447 filamin-A isoform 1 2316 FLNA 2639 P21333 sp,1271.77,19.45,1081.10,37105270.6,785,149,43,69.46,2639,397
+3,>NP_000436 plectin isoform 1c 5339 PLEC 4574 Q15149 sp,1172.62,16.87,807.00,16582340.6,452,192,24,50.00,4574,86
+4,>NP_003371 vimentin 7431 VIM 466 P08670 sp,836.89,20.03,1210.60,104411526.6,1129,99,17,92.92,466,24504
+1154,">NP_006112 keratin, type II cytoskeletal 1 3848 KRT1 644 P04264 sp",30.12,8.90,598.00,292353.5,8,6,0,9.47,644,14879
+2894,>NP_057698 tyrosyl-DNA phosphodiesterase 2 51567 TDP2 362 O95551 sp,7.02,6.95,528.30,41209.5,3,2,0,6.91,362,31976
+2895,>NP_001070667 splicing regulatory glutamine/lysine-rich protein 1 isoform a 140890 SREK1 624 Q8WXA9 sp,7.02,7.04,476.70,53485.2,1,1,0,2.24,624,15653
+3322,>NP_038476 bromodomain adjacent to zinc finger domain protein 1A isoform a 11177 BAZ1A 1556 Q9NRL2 sp,5.05,5.10,362.80,193823.3,5,4,1,4.31,1556,2030
+3615,>NP_000090 cystatin-C precursor 1471 CST3 146 P01034 sp,3.19,3.19,339.10,40820.6,1,1,0,7.53,146,48648
