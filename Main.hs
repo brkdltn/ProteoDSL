@@ -20,13 +20,10 @@ data MassSpec = MassSpec {
 } deriving Show
 
 -- Hmm v --
--- findLargestSpectra :: [Record] -> Record
--- findLargestSpectra items = foldl1 (\a x -> if s x > s a then x else a) items
+findLargestSpectra :: [Record] -> [Record]
+findLargestSpectra items = filter (\x -> if s x >= show 20 then True else False) items
 
--- s [_,_,_,_,_,_,s,_,_,_,_,_] = toInt s
-
--- toInt :: String -> Int                               
--- toInt = read
+s [_,_,_,_,_,_,spectra,_,_,_,_,_] = spectra
 
 -- Hmm ^ --
 
@@ -152,14 +149,14 @@ parseContaminants record =
 main :: IO ()
 main = do
   -- printContaminants
-  printProteins
+  -- printProteins
   -- printCombinedIsoform
 
-  -- let fileName = "UntreatedTest.csv"
-  -- input <- readFile fileName
-  -- let csv = parseCSV fileName input
+   let fileName = "UntreatedTest.csv"
+   input <- readFile fileName
+   let csv = parseCSV fileName input
 
   -- either print printSpectra csv
   -- either print printCombinedIsoform csv
   -- either print listCombinedIsoform csv
-  -- either print (print.findLargestSpectra.tail) csv
+   either print (print.findLargestSpectra.tail) csv
